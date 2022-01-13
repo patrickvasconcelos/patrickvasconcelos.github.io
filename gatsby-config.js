@@ -16,6 +16,7 @@ module.exports = {
     description: siteDescription,
     siteUrl: siteUrl,
   },
+  pathPrefix:"/patrickvasconcelos.github.io",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
