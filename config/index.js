@@ -1,14 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
-  siteLanguage: "en_US",
+  siteTitle: "Portfólio Patrick Vasconcelos",
+  siteShortTitle: "Patrick Vasconcelos", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Portfólio de ciência e análise de dados.",
+  siteUrl: "https://patrickvasconcelos.com/",
+  siteLanguage: "pt_BR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Portfolio Patrick Vasconcelos", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -28,15 +27,15 @@ module.exports = {
     },
     darkTheme: {
       primary: "#FAFAFA",
-      secondary: "#2A2926",
-      tertiary: "#252525",
+      secondary: "#C25E00",
+      tertiary: "#CC7E00",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
-      background: "#121212",
-      card: "#1C1C1C",
+      background: "#070D1C",
+      card: "#0c1630",
       scrollBar: "rgba(255, 255, 255, 0.5)",
-      boxShadow: "rgba(0, 0, 0, 0.16)",
-      boxShadowHover: "rgba(0, 0, 0, 0.32)",
+      boxShadow: "rgba(7, 13, 28, 0.16)",
+      boxShadowHover: "rgba(7, 13, 28, 0.32)",
     },
   },
   fonts: {
@@ -47,7 +46,7 @@ module.exports = {
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40patrickvasconcelos",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
   shownArticles: 3,
@@ -58,20 +57,19 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/patrickvasconcelos/",
     },
     {
       name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://patrickvasconcelos.medium.com/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/patrickvasconcelos",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Kaggle",
+      url: "https://www.kaggle.com/patrickvs",
     },
     // {
     //   name: "Mail",
@@ -83,33 +81,33 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "About Me",
+        name: "Sobre Mim",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projetos",
         url: "/#projects",
       },
       {
-        name: "Contact",
+        name: "Contato",
         url: "/#contact",
       },
     ],
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "resume.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
     {
-      name: "Privacy",
+      name: "Privacidade",
       url: "/privacy",
     },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
