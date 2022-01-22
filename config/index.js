@@ -2,13 +2,13 @@ module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
   siteTitle: "Portfólio Patrick Vasconcelos",
-  siteShortTitle: "Patrick Vasconcelos", // Used as logo text in header, footer, and splash screen
+  siteShortTitle: "PV", // Used as logo text in header, footer, and splash screen
   siteDescription: "Portfólio de ciência e análise de dados.",
   siteUrl: "https://patrickvasconcelos.com/",
   siteLanguage: "pt_BR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Patrick Vasconcelos", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
-  useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
+  useCookieBar: true, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
   // -- THEME SETTINGS -----
@@ -81,7 +81,7 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "Sobre Mim",
+        name: "Quem Sou",
         url: "/#about",
       },
       {
